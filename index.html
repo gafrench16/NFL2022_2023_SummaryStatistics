@@ -1,0 +1,18 @@
+html_template = """
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Python-Generated HTML</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This HTML page is generated using Python.</p>
+</body>
+</html>
+"""
+
+# Write the HTML template to an HTML file
+with open("generated_html.html", "w") as html_file:
+    html_file.write(html_template)
+
+print("HTML file created successfully.")
